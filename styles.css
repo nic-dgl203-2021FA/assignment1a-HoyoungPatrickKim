@@ -39,12 +39,12 @@ h1{
     line-height: 1;
 }
 h2 {
-    margin: 0;
     font-size: 45px;
 }
 h1, h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
+    margin: 0;
 }
 .content-wrap {
     width: 800px;
@@ -97,6 +97,11 @@ header {
 -----------------------------------*/
 .work-experience {
     background: #A1C6D7;
+}
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
 }
 
 /*Education
