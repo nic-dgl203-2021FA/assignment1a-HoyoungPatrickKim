@@ -1,13 +1,16 @@
 /*
 COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
+https://coolors.co/01161e-124559-598392-aec3b0-eff6e0
+#F6FFF8: Mint Cream - More like Snow Green
+#EAF4F4: Mint Cream - More like Porcelain Blue
+#CCE3DE: Light Cyan
+#A4C3B2: Cambridge Blue
+#6B9080: Wintergreen Dream
 */
-
+/*background-image: url(../assignment1a-HoyoungPatrickKim/placeholderimages/joanna-kosinska-unsplash.jpg);
+background-size: cover;
+background-position: top right;
+padding-bottom: 100px;*/
 
 /*Global Styles
 -----------------------------------*/
@@ -18,7 +21,7 @@ html {
     box-sizing: inherit;
 }
 body {
-    color: #343434;
+    color: #6B9080;
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
@@ -29,7 +32,7 @@ img {
     width: 300px;
 }
 a {
-    color: #FFE66D;
+    color: #A4C3B2;
 }
 a:hover {
     text-decoration: none;
@@ -62,7 +65,7 @@ h3 {
     margin: 0;
 }
 .divider > section {
-    border-bottom: 1px dashed #343434;
+    border-bottom: 1px dashed ;
     padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -71,8 +74,8 @@ h3 {
 /*Profile
 -----------------------------------*/
 header {
-    background: #2F3061;
-    color: #F7FFF7;
+    background: #F6FFF8;
+    color: #6B9080;
     text-align: center;
 }
 
@@ -80,14 +83,14 @@ header {
 /*Projects
 -----------------------------------*/
 .projects {
-    background: #F7FFF7;
+    background: #EAF4F4;
 }
 .projects a {
-    color: #2F3061;
+    color: #A4C3B2;
 }
 .projects .btn {
-    color: #F7FFF7;
-    background: #2F3061;
+    color: #EAF4F4;
+    background: #A4C3B2;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -106,16 +109,14 @@ header {
 /*Work Experience
 -----------------------------------*/
 .work-experience {
-    background: #A1C6D7;
+    background: #CCE3DE;
 }
 
 /*Education
 -----------------------------------*/
 .education {
-    background-image: url(../assignment1a-HoyoungPatrickKim/placeholderimages/joanna-kosinska-unsplash.jpg);
-    background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
+    background: #A4C3B2;
+    color: #F6FFF8;
 }
 .education p {
     width: 60%;
@@ -124,8 +125,8 @@ header {
 /*Contact Info
 -----------------------------------*/
 footer {
-    background: #343434;
-    color: #F7FFF7;
+    background: #6B9080;
+    color: #F6FFF8;
 }
 .contact-list {
     list-style-type: none;
