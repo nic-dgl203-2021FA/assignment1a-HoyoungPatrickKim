@@ -74,7 +74,7 @@ h3 {
 }
 /*Navigation Bar Menu
 -----------------------------------*/
-/*Used CodingNepal's video to set the responsive navbar menu: https://www.youtube.com/watch?v=oLgtucwjVII&t=54s&ab_channel=CodingNepal*/
+/*Used CodingNepal's video to set the responsive navbar menu: https://www.youtube.com/watch?v=oLgtucwjVII&t=54s&ab_channel=CodingNepal */
 * {
     padding: 0;
     margin: 0;
@@ -106,6 +106,9 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
 }
+a.active, ::before {
+    border: solid var(--background-color);
+}
 a.active,a:hover {
     background: #CCE3DE;
     transition: .5s;    
@@ -122,6 +125,7 @@ a.active,a:hover {
 #check {
     display: none;
 }
+
 /*Profile
 -----------------------------------*/
 header {
@@ -129,7 +133,6 @@ header {
     color: #6B9080;
     text-align: center;
 }
-
 
 /*Projects
 -----------------------------------*/
@@ -148,13 +151,60 @@ header {
     display: inline-block;
 }
 .projects .btn:hover {
-    background: rgb(47, 48, 97, 80%);
+    background: rgb(204, 227, 222, 80%);
 }
 .project-item {
     overflow: hidden;
 }
 .project-item h3 {
     margin-top: 0;
+}
+
+/*Modals
+-----------------------------------*/
+/*Used Codingflag's video to create modals: https://www.youtube.com/watch?v=bH6Xcszq2tQ&ab_channel=Codingflag */
+
+h1 {
+    font-size: 60px;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    background: none;
+}
+
+#popup {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: cover;
+    display: none;
+}
+
+#popup .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 10px 20px;
+    background: rgba(234, 244, 244, 0.75);
+}
+
+#popup a.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#popup:target {
+    display: block;
 }
 
 /*Work Experience
